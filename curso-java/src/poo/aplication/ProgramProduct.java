@@ -17,7 +17,6 @@ public class ProgramProduct {
 		String name = sc.nextLine();
 		System.out.print("Price: ");
 		double price = sc.nextDouble();
-		
 		Product product = new Product(name, price);
 		
 		System.out.println();
